@@ -38,7 +38,7 @@ export const Porfolio = () => {
               title={item.title}
               goal={item.goal}
               skills={item.skills}
-              link={item.link}
+              url={item.link}
               img={item.img}
             />
           );
