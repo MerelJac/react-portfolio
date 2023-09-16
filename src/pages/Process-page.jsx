@@ -23,7 +23,7 @@ export const ProcessPage = () => {
           </p>
         </li>
         <li class="ml-6 mr-6 p-2">
-          <h3 class="hover:animate-bounce mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 class="grow mb-1 text-lg font-semibold text-gray-900 dark:text-white">
             Develop
           </h3>
           <p class="text-base font-normal">

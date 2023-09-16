@@ -18,7 +18,7 @@ export const IconList = () => {
   ];
   return (
     <>
-    <section className="flex flex-row justify-between">
+    <section className="flex flex-row justify-evenly flex-wrap">
       {skillsArray.map((item, index) => {
         return (
           <Icon
