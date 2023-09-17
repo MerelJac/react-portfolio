@@ -7,6 +7,7 @@ import githubIcon from "../images/github.png";
 import linkedinIcon from "../images/linkedin.png";
 import emailIcon from "../images/email.png";
 import coverPhoto from "../images/coverPhoto.jpg";
+import techResume from '../images/Tech-Resume.png'
 
 export const MainText = (props) => {
   const sectionStyle = {
@@ -46,7 +47,7 @@ export const MainText = (props) => {
               />
             </div>
             <Button
-              href={"https://www.coachmerel.com"}
+              href={techResume}
               alt={"resume"}
               text={"Resume"}
             />

@@ -9,16 +9,19 @@ import react from "../images/skills-icons/icons8-react-96.png";
 
 export const IconList = () => {
   const skillsArray = [
+    { src: figma, alt: "figma" },
     { src: HTML, alt: "HTML" },
     { src: css, alt: "css" },
     { src: javascript, alt: "javascript" },
     { src: react, alt: "react" },
     { src: Angular, alt: "Angular" },
-    { src: figma, alt: "figma" },
+
   ];
+
+
   return (
     <>
-    <section className=" md:flex flex-row justify-evenly flex-wrap">
+    <section className="absolute w-full h-full flex flex-row flex-wrap justify-between opacity-50">
       {skillsArray.map((item, index) => {
         return (
           <Icon

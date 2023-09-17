@@ -3,15 +3,18 @@ import { HeaderText } from "../components/Header-text";
 import { IconList } from "../components/Icons-Render";
 import { Info } from "../components/Info";
 export const ProcessPage = () => {
+  
   return (
     <>
-      <div className="text-creme h-fit p-[20px]">
+      <div className="text-creme h-fit p-[20px] relative overflow-hidden h-[300px]">
         <HeaderText text={"Process"} />
-        <IconList />
-        <div className="p-2 items-start justify-between md:flex">
-          <Info title="Dream" details="mimi thought about it" />
-          <Info title="Design" details="mimi drew it in her jounral" />
-          <Info title="Develop" details="mimi works hard" />
+        <div className="relative flex sm:flex-col flex-row justify-between pt-[20px]">
+          <IconList />
+          <div className="relative flex items-center justify-center flex-row z-10 w-full top-[20px] flex-wrap">
+            <Info title="Design" />
+            <Info title="Develop" />
+            <Info title="Deploy" />
+          </div>
         </div>
       </div>
     </>
