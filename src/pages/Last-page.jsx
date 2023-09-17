@@ -4,7 +4,7 @@ import { HeaderText } from "../components/Header-text";
 export const LastPage = () => {
   return (
     <>
-      <div className="grid grid-cols-2 bg-dark-green text-creme h-fit">
+      <div className="grid grid-cols-2 text-creme h-fit p-[20px]">
         <section>
         <HeaderText text={"About Me"}/>
         </section>

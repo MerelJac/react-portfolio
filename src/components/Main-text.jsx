@@ -25,7 +25,7 @@ export const MainText = (props) => {
           <HeaderText text={"MerelJac "} />
           <DetailText
             text={
-              "Full Stack Software Engineer with a passion for building full stack, user-centric applications"
+              "Full Stack Software Engineer with a passion for building user-centric applications"
             }
           />
             <div className="flex flex-row justify-end items-center">

@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Icon } from "./Header-icon";
+import githubIcon from "../images/github.png";
 
 export const Card = (props) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -49,9 +51,16 @@ export const Card = (props) => {
         >
           <img style={imgCSS} src={props.img} alt="porfolio-example" />
           <article style={content}>
-            <h2>Title: {props.title}</h2>
-            <p>Goal: {props.goal}</p>
-            <p>Skills Used: {props.skills}</p>
+            <h2 className="text-md">{props.title}</h2>
+            <p>{props.goal}</p>
+            <div className="flex flex-row justify-between items-center">
+              <p>{props.skills}</p>
+              <Icon
+                src={`${githubIcon}`}
+                alt={"GitHub/MerelJac"}
+                link={props.link}
+              />
+            </div>
           </article>
         </div>
       </a>
