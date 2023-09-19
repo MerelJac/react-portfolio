@@ -1,17 +1,17 @@
 import React from "react";
-import { DetailText } from "../components/Detail-text";
 import { HeaderText } from "../components/Header-text";
 import { ContactForm } from "../components/Contact-form";
-import { ProcessCard } from "../components/Process-card";
+import { Coffee } from "../components/Coffee";
 
 export const LastPage = () => {
   return (
     <>
-      <div className="text-creme h-fit p-[20px]">
-        <section className="flex flex-row items-center justify-between">
-          <HeaderText text={"Let's connect"} />
-        </section>
+      <div className="text-creme h-fit p-[20px] flex justify-center">
+        <section className="flex flex-col sm:flex-row items-center justify-between">
+<Coffee/>
         <ContactForm />
+        </section>
+
       </div>
     </>
   );

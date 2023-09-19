@@ -1,31 +1,22 @@
 import React from "react";
-import { HeaderText } from "../components/Header-text";
-import coverPhoto from "../images/violinBackground.png";
-import { IconList } from "../components/Icons-Render";
-
+import { Image } from "../components/Image";
+import violin from '../images/violin.jpg'
+import dev from '../images/coverPhoto.jpg'
+import fitness from '../images/smiling.jpg'
 export const AboutPage = () => {
-  const sectionStyle = {
-    backgroundImage: `url(${coverPhoto})`,
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center", // Default position for small screens
-    lg: {
-      backgroundPosition: "50%", // Change position for larger screens (e.g., lg breakpoint)
-    },
-    backgroundSize: "cover",
-  };
 
   return (
     <>
-      <section
-        className="h-[80vh] p-4 flex flex-col text-creme grid sm:grid-cols-[30%_auto] grid-cols-[90%_auto]"
-        style={sectionStyle}
-      >
-        <div className="flex flex-col justify-between">
-        <HeaderText text="My Skills" />
-        <IconList />
-        </div>
-
-      </section>
+        <>
+        <section className="text-dark-green bg-creme"> 
+        <h1 className="font-primary text-lg flex justify-center">Good Business with Good People</h1>
+        <section className="p-4 justify-between flex flex-col contents-center sm:flex-row">
+            <Image text="Engineer" alt="dev" src={dev}/>
+            <Image text="Artist" alt="violin" src={violin}/>
+            <Image text="Entrepreneur" alt="trainer" src={fitness} />
+        </section>
+        </section>
+        </>
     </>
   );
 };
