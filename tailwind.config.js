@@ -22,7 +22,8 @@ module.exports = {
 
       lg: "1440px",
     },
-    extend: {},
+    extend: {
+    },
     colors: {
       black: "#00000",
       white: "#ffffff",

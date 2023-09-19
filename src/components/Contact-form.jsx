@@ -1,39 +1,41 @@
-import React, { useState } from "react";
-import { HeaderText } from "./Header-text";
+import React, {useRef, useState} from "react";
+import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    email: "",
-    subject: "",
-    message: "",
-  });
+  const form = useRef();
+  const [sent, setSent] = useState('Send')
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    // Send the form data to your backend for email processing.
-    console.log(formData);
+
+    emailjs.sendForm('merelprofessional', 'template_5uw6hr2', form.current, 'BSHcT2TeK_7bUz5sX')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    
+  setSent('Sent')
+
+
   };
+
+  const inputClass = {
+    borderRadius: '10px',
+    padding: '10px',
+    background: '#F7E3D4',
+    color: "#234539"
+  }
 
   return (
-    <>
-      <HeaderText text={"Get In Touch!"} />{" "}
-      <form className="flex flex-col p-2">
-        <input type="email" required="true" placeholder="Email">{}</input>
-        <input type="text" required="true" placeholder="Subject">{}</input>
-        <input type="text" required="true" placeholder="Message">{}</input>
-        <button type="submit" onClick={handleSubmit}>
-          Talk soon!
-        </button>
-      </form>
-    </>
+    <form className="flex flex-col" ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input style={inputClass} type="text" name="user_name" />
+      <label>Email</label>
+      <input style={inputClass} type="email" name="user_email" />
+      <label>Message</label>
+      <textarea style={inputClass} name="message" />
+      <input className="flex justify-end color-dark-green" type="submit" value={sent} />
+    </form>
   );
 };
