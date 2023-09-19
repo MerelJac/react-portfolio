@@ -1,8 +1,8 @@
 import React from "react";
 import { DetailText } from "../components/Detail-text";
 import { HeaderText } from "../components/Header-text";
-import { Button } from "../components/Button";
 import { ContactForm } from "../components/Contact-form";
+import { ProcessCard } from "../components/Process-card";
 
 export const LastPage = () => {
   return (
@@ -11,7 +11,11 @@ export const LastPage = () => {
         <section className="flex flex-row items-center justify-between">
         <HeaderText text={"Let's connect"}/>
         </section>
+        <article className="flex flex-row p-4">
         <ContactForm/>
+        <ProcessCard/>
+        </article>
+
       </div>
     </>
   );

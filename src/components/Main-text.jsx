@@ -9,6 +9,7 @@ import emailIcon from "../images/email.png";
 import coverPhoto from "../images/coverPhoto.jpg";
 import techResume from "../images/Tech-Resume.png";
 
+
 export const MainText = (props) => {
   const sectionStyle = {
     backgroundImage: `url(${coverPhoto})`,
@@ -16,13 +17,14 @@ export const MainText = (props) => {
     backgroundPosition: "30%",
     backgroundSize: "cover",
   };
+
   return (
     <>
       <section
         className="h-[100vh] flex justify-center items-end"
         style={sectionStyle}
       >
-        <article className="text-end text-creme pb-20 pr-10">
+        <article className="text-end text-creme pb-20 pr-10 ease-in">
           <HeaderText text={"MerelJac "} />
           <DetailText
             text={
@@ -46,7 +48,7 @@ export const MainText = (props) => {
               link={"mailto:merel.burleigh@gmail.com"}
             />
           </div>
-          <div className="flex flex-col pb-2">
+          <div className="flex flex-col">
           <Button href={techResume} alt={"resume"} text={"Resume"} />
           <Button href={
           "mailto:merel.burleigh@gmail.com"

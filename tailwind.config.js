@@ -32,6 +32,5 @@ module.exports = {
       "dark-orange": "#7D3415",
       tahiti: "#3ab7bf",
     },
-  },
-  plugins: [],
+  }
 };
