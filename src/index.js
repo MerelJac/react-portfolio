@@ -4,7 +4,6 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { Landing } from "./pages/Landing-page";
 import { Porfolio } from "./pages/Porfolio-page";
-import { ProcessPage } from "./pages/Process-page";
 import { LastPage } from "./pages/Last-page";
 
 import { AboutPage } from "./pages/About-Me";
