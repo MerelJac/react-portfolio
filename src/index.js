@@ -6,15 +6,14 @@ import { Landing } from "./pages/Landing-page";
 import { Porfolio } from "./pages/Porfolio-page";
 import { ProcessPage } from "./pages/Process-page";
 import { LastPage } from "./pages/Last-page";
-import { AboutPage } from "./pages/About-page";
 
+import { AboutPage } from "./pages/About-Me";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Landing />
     <Porfolio />
     <AboutPage/>
-    <ProcessPage />
     <LastPage/>
   </React.StrictMode>
 );

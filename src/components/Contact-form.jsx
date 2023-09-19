@@ -15,7 +15,7 @@ export const ContactForm = () => {
           console.log(error.text);
       });
     
-  setSent('Sent')
+    setSent('Sent')
 
 
   };

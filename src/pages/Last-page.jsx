@@ -9,13 +9,9 @@ export const LastPage = () => {
     <>
       <div className="text-creme h-fit p-[20px]">
         <section className="flex flex-row items-center justify-between">
-        <HeaderText text={"Let's connect"}/>
+          <HeaderText text={"Let's connect"} />
         </section>
-        <article className="flex flex-row p-4">
-        <ContactForm/>
-        <ProcessCard/>
-        </article>
-
+        <ContactForm />
       </div>
     </>
   );
