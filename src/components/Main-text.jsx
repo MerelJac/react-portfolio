@@ -7,7 +7,6 @@ import githubIcon from "../images/github.png";
 import linkedinIcon from "../images/linkedin.png";
 import emailIcon from "../images/email.png";
 import coverPhoto from "../images/coverPhoto.jpg";
-import techResume from "../images/Tech-Resume.png";
 
 
 export const MainText = (props) => {
@@ -24,7 +23,7 @@ export const MainText = (props) => {
         className="h-[100vh] flex justify-center items-end"
         style={sectionStyle}
       >
-        <article className="text-end text-creme pb-20 pr-10 ease-in">
+        <article className="fadeIn text-end text-creme pb-20 pr-10 ease-in">
           <HeaderText text={"MerelJac "} />
           <DetailText
             text={

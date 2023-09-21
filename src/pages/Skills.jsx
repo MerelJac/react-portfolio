@@ -6,7 +6,7 @@ export const SkillsPage = () => {
     return (
         <>
         <section className="text-dark-green bg-creme"> 
-        <h1 className="font-primary text-lg flex justify-center">Skills & Experience</h1>
+        <h1 className="fadeIn font-primary text-lg flex justify-center p-[20px]">Skills & Experience</h1>
         <section className="p-4 px-4 justify-around flex flex-col contents-center sm:flex-row text-center">
             <IconsArray/>
             <Experience/>

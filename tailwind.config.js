@@ -22,8 +22,7 @@ module.exports = {
 
       lg: "1440px",
     },
-    extend: {
-    },
+    extend: {},
     colors: {
       black: "#00000",
       white: "#ffffff",
@@ -32,5 +31,8 @@ module.exports = {
       "dark-orange": "#7D3415",
       tahiti: "#3ab7bf",
     },
-  }
+    plugins: [
+      require('tailwindcss-animatecss')
+    ],
+  },
 };

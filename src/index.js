@@ -7,6 +7,7 @@ import { LastPage } from "./pages/Last-page";
 import { ProcessPage } from "./pages/Process-page";
 import { SkillsPage } from "./pages/Skills";
 import { AboutPage } from "./pages/About-Me";
+import 'tailwindcss-animatecss'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
