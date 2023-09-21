@@ -28,12 +28,12 @@ export const ContactForm = () => {
   }
 
   return (
-    <form className="flex flex-col" ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
+    <form className="flex flex-col w-[70%]" ref={form} onSubmit={sendEmail}>
+      <label className="flex justify-start">Name</label>
       <input style={inputClass} type="text" name="user_name" />
-      <label>Email</label>
+      <label className="flex justify-start">Email</label>
       <input style={inputClass} type="email" name="user_email" />
-      <label>Message</label>
+      <label className="flex justify-start">Message</label>
       <textarea style={inputClass} name="message" />
       <input className="flex justify-end color-dark-green" type="submit" value={sent} />
     </form>

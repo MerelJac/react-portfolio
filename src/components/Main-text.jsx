@@ -49,7 +49,6 @@ export const MainText = (props) => {
             />
           </div>
           <div className="flex flex-col">
-          <Button href={techResume} alt={"resume"} text={"Resume"} />
           <Button href={
           "mailto:merel.burleigh@gmail.com"
           } alt={"email"} text={"Hire Me"} />
