@@ -1,8 +1,8 @@
 import React from "react";
-import { HeaderText } from "./Header-text";
-import { DetailText } from "../components/Detail-text";
+import { HeaderText } from "./HeaderText";
+import { DetailText } from "./DetailText";
 import { Button } from "./Button";
-import { Icon } from "./Header-icon";
+import { Icon } from "./HeaderIcon";
 import githubIcon from "../images/github.png";
 import linkedinIcon from "../images/linkedin.png";
 import emailIcon from "../images/email.png";

@@ -1,5 +1,5 @@
 import React from "react";
-import { MainText } from "../components/Main-text";
+import { MainText } from "../components/MainText";
 
 export const Landing = () => {
   return (

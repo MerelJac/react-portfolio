@@ -1,6 +1,6 @@
 import React from "react";
 import { Experience } from "../components/Experience";
-import { IconsArray } from "../components/All-Icons";
+import { IconsArray } from "../components/AllIcons";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const SkillsPage = () => {

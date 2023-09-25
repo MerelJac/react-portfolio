@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactForm } from "../components/Contact-form";
+import { ContactForm } from "../components/ContactForm";
 import { Coffee } from "../components/Coffee";
 import ScrollAnimation from "react-animate-on-scroll";
 

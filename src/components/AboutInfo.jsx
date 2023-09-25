@@ -1,6 +1,6 @@
 import React from "react";
 import { Info } from "./Info";
-import { Icon } from "./Skill-Icon";
+import { Icon } from "./SkillsIcon";
 import HTML from "../images/skills-icons/icons8-html-96.png";
 import Angular from "../images/skills-icons/icons8-angular-96.png";
 import css from "../images/skills-icons/icons8-css-96.png";

@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import { Landing } from "./pages/Landing-page";
-import { LastPage } from "./pages/Last-page";
-import { ProcessPage } from "./pages/Process-page";
-import { SkillsPage } from "./pages/Skills";
-import { AboutPage } from "./pages/About-Me";
+import { Landing } from "./pages/LandingPage";
+import { LastPage } from "./pages/LastPage";
+import { ProcessPage } from "./pages/ProcessPage";
+import { SkillsPage } from "./pages/SkillsPage";
+import { AboutPage } from "./pages/AboutMePage";
 import 'tailwindcss-animatecss'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

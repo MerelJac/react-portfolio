@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderText } from "./Header-text";
+import { HeaderText } from "./HeaderText";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const Coffee = (props) => {
