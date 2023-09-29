@@ -16,7 +16,7 @@ export const Experience = () => {
 
             <div className="flex flex-col pb-4">
             <h2 className="text-sm">BA Psychology & Neuroscience</h2>
-            <p>Univeristy of Portland <a href="https://www.frontiersin.org/articles/10.3389/fpsyt.2020.00090/full">& OHSU</a></p>
+            <p>University of Portland <a href="https://www.frontiersin.org/articles/10.3389/fpsyt.2020.00090/full">& OHSU</a></p>
             </div>
 
         </section>

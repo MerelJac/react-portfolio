@@ -12,7 +12,7 @@ export const ProcessPage = () => {
         <h1 className="font-primary text-lg flex justify-center text-center p-[20px]">Design, Develop, Deploy</h1>
         <section className="p-4 justify-around flex flex-col contents-center items-center sm:flex-row">
             <ProcessCard title="SaaS" text="Builing user-centric Software as a Service." alt="SAAS" src={saas}/>
-            <ProcessCard title="Web & Mobile Apps" text="Dynamic and scalable applicatoins." alt="Apps" src={phone} />
+            <ProcessCard title="Web & Mobile Apps" text="Dynamic and scalable applications." alt="Apps" src={phone} />
         </section>
         </ScrollAnimation>
         </section>
