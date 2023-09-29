@@ -11,7 +11,7 @@ export const Experience = () => {
 
             <div className="flex flex-col pb-4">
             <h2 className="text-sm" >Full Stack Web Development</h2>
-            <p>Univeristy of Oregon & EdX</p>
+            <p>University of Oregon & EdX</p>
             </div>
 
             <div className="flex flex-col pb-4">
