@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Icon } from "./Header-icon";
-import githubIcon from "./github.png";
+import githubIcon from "../assets/images/github.png";
 
 
 export const Card = (props) => {
