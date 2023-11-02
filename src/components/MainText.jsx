@@ -3,10 +3,10 @@ import { HeaderText } from "./HeaderText";
 import { DetailText } from "./DetailText";
 import { Button } from "./Button";
 import { Icon } from "./HeaderIcon";
-import githubIcon from "../assets/images/github.png";
-import linkedinIcon from "../assets/images/linkedin.png";
-import emailIcon from "../assets/images/email.png";
-import coverPhoto from "../assets/images/coverPhoto.jpg";
+import githubIcon from "../github.png";
+import linkedinIcon from "../linkedin.png";
+import emailIcon from "../email.png";
+import coverPhoto from "../coverPhoto.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const MainText = (props) => {
