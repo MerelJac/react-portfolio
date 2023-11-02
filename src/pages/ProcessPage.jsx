@@ -1,7 +1,7 @@
 import React from "react";
 import { ProcessCard } from "../components/ProcessCard";
-import saas from '../images/comp.png'
-import phone from '../images/phone.png'
+import saas from '../images/all-images/comp.png'
+import phone from '../images/all-images/phone.png'
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const ProcessPage = () => {

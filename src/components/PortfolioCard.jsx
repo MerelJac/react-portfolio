@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Icon } from "./Header-icon";
-import githubIcon from "../images/github.png";
+import githubIcon from "../images/all-images/github.png";
 
 export const Card = (props) => {
   const [isHovered, setIsHovered] = useState(false);

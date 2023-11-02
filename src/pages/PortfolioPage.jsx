@@ -1,8 +1,8 @@
 import React from "react";
 import { HeaderText } from "../components/Header-text";
 import { Card } from "../components/Porfolio-Card";
-import somethingBorrowed from "../images/something-borrowed.png";
-import fitnessApp from "../images/exerciseAPI.png";
+import somethingBorrowed from "../images/all-images/something-borrowed.png";
+import fitnessApp from "../images/all-images/exerciseAPI.png";
 
 export const Porfolio = () => {
   const portfolioItems = [
