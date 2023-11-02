@@ -1,5 +1,5 @@
 import React from "react";
-import violin from '../images/all-images/violin.jpg'
+import violin from '../assets/images/violin.jpg'
 
 export const AboutImg = () => {
 return (

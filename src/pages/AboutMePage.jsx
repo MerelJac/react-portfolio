@@ -1,8 +1,8 @@
 import React from "react";
 import { Image } from "../components/Image";
-import violin from "../images/all-images/vio.png";
-import dev from "../images/all-images/face.png";
-import fitness from "../images/all-images/fit.png";
+import violin from "../assets/images/vio.png";
+import dev from "../assets/images/face.png";
+import fitness from "../assets/images/fit.png";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export const AboutPage = () => {

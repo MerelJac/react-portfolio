@@ -1,13 +1,13 @@
 import React from "react";
-import HTML from "../images/skills-icons/icons8-html-96.png";
-import Angular from "../images/skills-icons/icons8-angular-96.png";
-import figma from "../images/skills-icons/icons8-figma-96.png";
-import css from "../images/skills-icons/icons8-css-96.png";
-import javascript from "../images/skills-icons/icons8-javascript-96.png";
-import react from "../images/skills-icons/icons8-react-96.png";
-import gcp from "../images/skills-icons/icons8-google-cloud-96.png";
-import gitlab from "../images/skills-icons/icons8-gitlab-96.png";
-import heroku from "../images/skills-icons/icons8-heroku-96.png";
+import HTML from "../assets/skills-icons/icons8-html-96.png";
+import Angular from "../assets/skills-icons/icons8-angular-96.png";
+import figma from "../assets/skills-icons/icons8-figma-96.png";
+import css from "../assets/skills-icons/icons8-css-96.png";
+import javascript from "../assets/skills-icons/icons8-javascript-96.png";
+import react from "../assets/skills-icons/icons8-react-96.png";
+import gcp from "../assets/skills-icons/icons8-google-cloud-96.png";
+import gitlab from "../assets/skills-icons/icons8-gitlab-96.png";
+import heroku from "../assets/skills-icons/icons8-heroku-96.png";
 
 export const IconsArray = () => {
 
