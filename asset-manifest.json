@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7b3da6c.css",
-    "main.js": "/static/js/main.37c08bd3.js",
+    "main.css": "/static/css/main.8fec5a18.css",
+    "main.js": "/static/js/main.68462de6.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/face.png": "/static/media/face.00abab5e012996f8d312.png",
     "static/media/fit.png": "/static/media/fit.280a3de996fda830d042.png",
-    "static/media/comp.png": "/static/media/comp.faa1373bc8ab8640c9e6.png",
     "static/media/vio.png": "/static/media/vio.0987f6a054d7c8781503.png",
-    "static/media/phone.png": "/static/media/phone.deb13344a187f633274b.png",
+    "static/media/trainingsite.png": "/static/media/trainingsite.d4c6e3b9b45d05fd86ff.png",
+    "static/media/renimg.png": "/static/media/renimg.fe8d51aa9e99ccb12d2d.png",
+    "static/media/gymGenius.png": "/static/media/gymGenius.bfa7d98ce531b6d21339.png",
     "static/media/coverPhoto.jpg": "/static/media/coverPhoto.e4afedff436110a2341d.jpg",
     "static/media/email.png": "/static/media/email.4be883843047678ed77a.png",
     "static/media/github.png": "/static/media/github.0f4ef359e26f4435f995.png",
     "static/media/linkedin.png": "/static/media/linkedin.51fc63a68244f5ce4b37.png",
     "index.html": "/index.html",
-    "main.f7b3da6c.css.map": "/static/css/main.f7b3da6c.css.map",
-    "main.37c08bd3.js.map": "/static/js/main.37c08bd3.js.map",
+    "main.8fec5a18.css.map": "/static/css/main.8fec5a18.css.map",
+    "main.68462de6.js.map": "/static/js/main.68462de6.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7b3da6c.css",
-    "static/js/main.37c08bd3.js"
+    "static/css/main.8fec5a18.css",
+    "static/js/main.68462de6.js"
   ]
 }
