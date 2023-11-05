@@ -26,7 +26,7 @@ export const MainText = (props) => {
           <article className="text-end text-creme pb-20 pr-10 ease-in">
             <ScrollAnimation animateIn="bounce" initiallyVisible={true}>
               {" "}
-              <HeaderText text={"MerelJac "} />
+              <HeaderText text={"Hi, I'm Merel"} />
             </ScrollAnimation>
 
             <DetailText
@@ -34,7 +34,7 @@ export const MainText = (props) => {
                 "Full Stack Software Engineer with a passion for building user-centric applications"
               }
             />
-            <div className="flex flex-row justify-end items-center">
+            <div className="flex flex-row justify-end items-center pb-2">
               <Icon
                 src={`${githubIcon}`}
                 alt={"GitHub/MerelJac"}
@@ -51,11 +51,11 @@ export const MainText = (props) => {
                 link={"mailto:merel.burleigh@gmail.com"}
               />
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col justify-center">
               <Button
                 href={"mailto:merel.burleigh@gmail.com"}
                 alt={"email"}
-                text={"Hire Me"}
+                text={"Work with me"}
               />
             </div>
           </article>

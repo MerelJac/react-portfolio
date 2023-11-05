@@ -10,7 +10,7 @@ export const ProcessPage = () => {
   return (
     <section className="text-creme px-4">
       <ScrollAnimation animateIn="fadeIn">
-        <h1 className="font-primary text-lg flex justify-center text-center p-[20px]">
+        <h1 className="font-primary sm:text-lg text-md flex justify-center text-center p-[20px]">
           Design, Develop, Deploy
         </h1>
         <section className="p-4 justify-around flex flex-col contents-center items-center">

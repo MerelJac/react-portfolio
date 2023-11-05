@@ -33,7 +33,7 @@ export const IconList = () => {
       {skillsArray.map((item, index) => {
         return (
           <Icon
-            key={`skill-${index}`} // Unique key for each Icon
+            key={`skill-${index}`} 
             src={item.src}
             alt={item.alt}
           />

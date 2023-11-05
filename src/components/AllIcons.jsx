@@ -13,7 +13,7 @@ export const IconsArray = () => {
 
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col pb-4">
         <section className="flex flex-row justify-between">
           <img className="max-w-[80px]" src={javascript} alt={javascript} />
           <img className="max-w-[80px]" src={css} alt={css} />
