@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.146e4bb6.css",
-    "main.js": "/static/js/main.0d03ed06.js",
+    "main.css": "/static/css/main.85f93995.css",
+    "main.js": "/static/js/main.d56ddc9c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/face.png": "/static/media/face.00abab5e012996f8d312.png",
     "static/media/fit.png": "/static/media/fit.280a3de996fda830d042.png",
@@ -10,16 +10,17 @@
     "static/media/renimg.png": "/static/media/renimg.fe8d51aa9e99ccb12d2d.png",
     "static/media/gymGenius.png": "/static/media/gymGenius.bfa7d98ce531b6d21339.png",
     "static/media/coverPhoto.jpg": "/static/media/coverPhoto.e4afedff436110a2341d.jpg",
+    "static/media/UpdatedTechResume.pdf": "/static/media/UpdatedTechResume.a7fb003b0dff7d25669a.pdf",
     "static/media/email.png": "/static/media/email.4be883843047678ed77a.png",
     "static/media/github.png": "/static/media/github.0f4ef359e26f4435f995.png",
     "static/media/linkedin.png": "/static/media/linkedin.51fc63a68244f5ce4b37.png",
     "index.html": "/index.html",
-    "main.146e4bb6.css.map": "/static/css/main.146e4bb6.css.map",
-    "main.0d03ed06.js.map": "/static/js/main.0d03ed06.js.map",
+    "main.85f93995.css.map": "/static/css/main.85f93995.css.map",
+    "main.d56ddc9c.js.map": "/static/js/main.d56ddc9c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.146e4bb6.css",
-    "static/js/main.0d03ed06.js"
+    "static/css/main.85f93995.css",
+    "static/js/main.d56ddc9c.js"
   ]
 }
