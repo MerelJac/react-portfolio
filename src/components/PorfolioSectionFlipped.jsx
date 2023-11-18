@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 export const PorfolioSectionFlipped = (props) => {
   return (
-    <section className="flex flex-col gap-2 sm:flex-row items-center w-[100vw] px-2">
+    <section className="flex flex-col gap-2 sm:flex-row items-center w-[100vw] px-2 pt-4">
             <div className="order-2 sm:order-1">
         <a href={props.hrefImg}>
           <img className="" src={props.img} alt={props.imgAlt}></img>

@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 export const PorfolioSection = (props) => {
   return (
-    <section className="flex flex-col gap-2 sm:flex-row items-center w-[100vw] px-2">
+    <section className="flex flex-col gap-2 sm:flex-row items-center w-[100vw] px-2 pt-4">
       <div className="p-2 flex flex-col w-full">
         <h2 className="font-bold text-md">{props.title}</h2>
         <p className="pb-6">{props.text}</p>

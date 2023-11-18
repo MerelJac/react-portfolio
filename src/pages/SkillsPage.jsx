@@ -5,7 +5,6 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 export const SkillsPage = () => {
   return (
-    <>
       <section className="text-dark-green bg-creme">
         <ScrollAnimation animateIn="fadeIn">
           <h1 className="sm:text-lg fadeIn font-primary text-md flex justify-center p-[20px]">
@@ -17,6 +16,5 @@ export const SkillsPage = () => {
           </section>
         </ScrollAnimation>
       </section>
-    </>
   );
 };
