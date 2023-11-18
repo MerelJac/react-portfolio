@@ -8,22 +8,26 @@ import { PorfolioSectionFlipped } from "../components/PorfolioSectionFlipped";
 
 export const ProcessPage = () => {
   return (
-    <section className="text-creme px-4">
+    <section className="text-creme px-4 bg-dark-green">
       <ScrollAnimation animateIn="fadeIn">
         <h1 className="font-primary sm:text-lg text-md flex justify-center text-center p-[20px]">
           Design, Develop, Deploy
         </h1>
         <section className="p-4 justify-around flex flex-col contents-center items-center">
-          <PorfolioSection
-            title="Software as a Service"
-            text="Building scalable applications with Cloud Platform Services."
-            projectTitle="Ren Platform to aid in decarbonization of global supply chain."
-            projectContribution="Improve accuracy of data presentation, refactor routes to improve accessiblity, collaborate with design team to add front end features & more!"
-            img={renImg}
-            imgAlt="SaasImg"
-            hrefImg="https://www.ren.inc/platform"
-            buttonText="View Platform"
-          />
+          <div className="border-b-2 border-creme pb-4">
+            <PorfolioSection
+              title="Software as a Service"
+              text="Building scalable applications with Cloud Platform Services."
+              projectTitle="Ren Platform to aid in decarbonization of global supply chain."
+              projectContribution="Improve accuracy of data presentation, refactor routes to improve accessiblity, collaborate with design team to add front end features & more!"
+              img={renImg}
+              imgAlt="SaasImg"
+              hrefImg="https://www.ren.inc/platform"
+              buttonText="View Platform"
+            />
+          </div>
+          <div className="border-b-2 border-creme pb-4">
+
           <PorfolioSectionFlipped
             title="Web Applications"
             text="Tailored applications designed to present, store, and manipulate data in alignment with a business's specific needs."
@@ -34,6 +38,7 @@ export const ProcessPage = () => {
             hrefImg="https://github.com/MerelJac/GymGenius"
             buttonText="View on GitHub"
           />
+          </div>
           <PorfolioSection
             title="Custom Websites"
             text="Enhance business's digital footprint with custom websites."
