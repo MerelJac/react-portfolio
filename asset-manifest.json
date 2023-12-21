@@ -1,26 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.85f93995.css",
-    "main.js": "/static/js/main.d56ddc9c.js",
+    "main.css": "/static/css/main.83a68ce6.css",
+    "main.js": "/static/js/main.f53619c3.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/BIG2.png": "/static/media/BIG2.cc94dbcb613f0ad42dbd.png",
+    "static/media/LIB.png": "/static/media/LIB.047bae28ce480f2f3584.png",
+    "static/media/something-borrowed.png": "/static/media/something-borrowed.77d5ff862d58aef640a4.png",
     "static/media/face.png": "/static/media/face.00abab5e012996f8d312.png",
     "static/media/fit.png": "/static/media/fit.280a3de996fda830d042.png",
     "static/media/vio.png": "/static/media/vio.0987f6a054d7c8781503.png",
     "static/media/trainingsite.png": "/static/media/trainingsite.d4c6e3b9b45d05fd86ff.png",
+    "static/media/gympic2.png": "/static/media/gympic2.4f3ecfbcee5dbeb12442.png",
+    "static/media/celina.png": "/static/media/celina.3081b9b8c573c7542600.png",
     "static/media/renimg.png": "/static/media/renimg.fe8d51aa9e99ccb12d2d.png",
     "static/media/gymGenius.png": "/static/media/gymGenius.bfa7d98ce531b6d21339.png",
+    "static/media/gym-signup.png": "/static/media/gym-signup.eb0bbbedc09dcf98412f.png",
+    "static/media/ren.png": "/static/media/ren.75f32f864c141a801630.png",
     "static/media/coverPhoto.jpg": "/static/media/coverPhoto.e4afedff436110a2341d.jpg",
-    "static/media/UpdatedTechResume.pdf": "/static/media/UpdatedTechResume.a7fb003b0dff7d25669a.pdf",
+    "static/media/EngineeringRes.pdf": "/static/media/EngineeringRes.44040fad7bfcb34e7f47.pdf",
+    "static/media/saas.png": "/static/media/saas.99c29fcbb48a15582256.png",
+    "static/media/consult.png": "/static/media/consult.cf8c3a4869fce429d659.png",
+    "static/media/fullstack.png": "/static/media/fullstack.a553228ad305676ba6eb.png",
+    "static/media/website.png": "/static/media/website.1eb59bea5544a1fd6b7d.png",
     "static/media/email.png": "/static/media/email.4be883843047678ed77a.png",
     "static/media/github.png": "/static/media/github.0f4ef359e26f4435f995.png",
     "static/media/linkedin.png": "/static/media/linkedin.51fc63a68244f5ce4b37.png",
     "index.html": "/index.html",
-    "main.85f93995.css.map": "/static/css/main.85f93995.css.map",
-    "main.d56ddc9c.js.map": "/static/js/main.d56ddc9c.js.map",
+    "main.83a68ce6.css.map": "/static/css/main.83a68ce6.css.map",
+    "main.f53619c3.js.map": "/static/js/main.f53619c3.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85f93995.css",
-    "static/js/main.d56ddc9c.js"
+    "static/css/main.83a68ce6.css",
+    "static/js/main.f53619c3.js"
   ]
 }
