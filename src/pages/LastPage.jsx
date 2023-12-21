@@ -7,7 +7,7 @@ export const LastPage = () => {
   return (
     <>
     <ScrollAnimation animateIn="fadeIn">
-      <div className="text-creme h-fit p-[20px] flex justify-center flex-col text-center items-center w-[100vw]">
+      <div className="text-creme h-fit p-[20px] flex justify-center flex-col text-center items-center w-[100vw] pb-[20px]">
           <Coffee />
           <ContactForm />
       </div>
