@@ -6,7 +6,6 @@ import saas from "../assets/images/saas.png";
 import website from "../assets/images/website.png";
 import fullstack from "../assets/images/fullstack.png";
 
-
 import { DownloadButton } from "../components/DownloadButton";
 import Resume from "../assets/EngineeringRes.pdf";
 
@@ -19,26 +18,27 @@ export const SkillsPage = () => {
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <SkillCard
-                      img={fullstack}
+            img={fullstack}
             header="Full Stack Web Development"
-            detail="You dream it, let's build it."
+            detail="Turn your ideas into reality."
           />
           <SkillCard
             img={saas}
             header="Software as a Service"
-            detail="Automate data analysis in large scale applications & deploy with cloud platform services with a product mindset."
+            detail="Automate and deploy scalable applications with a product-driven approach."
           />
           <SkillCard
-                      img={website}
+            img={website}
             header="Custom Websites"
-            detail="Let's display your brand."
+            detail="Showcase your brand with tailor-made websites."
           />
           <SkillCard
             img={consult}
             header="Consulting"
-            detail="Learn more about enhancing your business's online presence."
+            detail="Explore strategies to enhance your business's online presence."
           />
         </div>
+
         <div className="flex justify-center py-10">
           <DownloadButton
             href={Resume}
