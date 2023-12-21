@@ -1,0 +1,46 @@
+.container {  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    padding: 1rem;
+    grid-template-areas:
+    "a b b"
+    "c b b"
+    "c d e"
+    "f f e"
+    "f f g"
+    "h i i"
+    "h i i"
+    "h i i"
+    "m m l"
+    "m m n";
+}
+
+
+.a { grid-area: a; }
+.b { grid-area: b; }
+.c { grid-area: c; }
+.d { grid-area: d; }
+.e { grid-area: e; }
+.f { grid-area: f; }
+.g { grid-area: g; }
+.h { grid-area: h; }
+.i { grid-area: i; }
+.j { grid-area: j; }
+.k { grid-area: k; }
+.l { grid-area: l; }
+.m { grid-area: m; }
+.n { grid-area: n; }
+  
+  .container > div[class] {
+    background: #ececec;
+    /* position: relative; */
+    border-radius: 1rem;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+

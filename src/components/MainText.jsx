@@ -1,7 +1,6 @@
 import React from "react";
 import { HeaderText } from "./HeaderText";
 import { DetailText } from "./DetailText";
-import { Button } from "./Button";
 import { Icon } from "./HeaderIcon";
 import githubIcon from "../assets/images/github.png";
 import linkedinIcon from "../assets/images/linkedin.png";
@@ -18,6 +17,7 @@ export const MainText = (props) => {
   };
 
   return (
+    <div className="flex flex-col">
     <section
       className="h-[100vh] flex justify-end items-end"
       style={sectionStyle}
@@ -28,8 +28,8 @@ export const MainText = (props) => {
           <HeaderText text={"Hi, I'm Merel"} />
         </ScrollAnimation>
 
-        <DetailText text={"Full Stack Software Engineer"} />
-        <div className="flex flex-row justify-end items-center pb-2">
+        <DetailText text={"Software Engineer"} />
+        <div className="flex flex-row justify-end items-center pb-2 justify-around">
           <Icon
             src={`${githubIcon}`}
             alt={"GitHub/MerelJac"}
@@ -46,14 +46,9 @@ export const MainText = (props) => {
             link={"mailto:merel.burleigh@gmail.com"}
           />
         </div>
-        <div className="flex flex-col justify-center">
-          <Button
-            href={"mailto:merel.burleigh@gmail.com"}
-            alt={"email"}
-            text={"Let's work together"}
-          />
-        </div>
+
       </article>
     </section>
+    </div>
   );
 };
