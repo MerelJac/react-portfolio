@@ -1,7 +1,6 @@
 import React from "react";
 import { HeaderText } from "./HeaderText";
 import { DetailText } from "./DetailText";
-import { Button } from "./Button";
 import { Icon } from "./HeaderIcon";
 import githubIcon from "../assets/images/github.png";
 import linkedinIcon from "../assets/images/linkedin.png";

@@ -1,0 +1,64 @@
+.container {  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1em 1em;
+    grid-auto-flow: row;
+    padding: 1rem;
+    grid-template-areas:
+    "a b b"
+    "c b b"
+    "c d e"
+    "f f e"
+    "f f g"
+    "h i i"
+    "j i i"
+    "j k k"
+    "m m l"
+    "m m n";
+}
+
+
+.a { grid-area: a; }
+.b { grid-area: b; }
+.c { grid-area: c; }
+.d { grid-area: d; }
+.e { grid-area: e; }
+.f { grid-area: f; }
+.g { grid-area: g; }
+.h { grid-area: h; }
+.i { grid-area: i; }
+.j { grid-area: j; }
+.k { grid-area: k; }
+.l { grid-area: l; }
+.m { grid-area: m; }
+.n { grid-area: n; }
+  
+  .container > div[class] {
+    background: #ececec;
+    /* position: relative; */
+    border-radius: 1rem;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 1rem; */
+  }
+
+
+  @media (max-width: 600px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr); /* Change to 2 columns for screens smaller than 600px */
+      grid-template-areas:
+        "a b"
+        "c b"
+        "c d"
+        "e f"
+        "e g"
+        "h i"
+        "j i"
+        "j k"
+        "l m"
+        "l n";
+    }
+  }
