@@ -18,14 +18,14 @@ export default function PicPage() {
     <section className="text-creme px-4 bg-dark-green flex content-center">
       <ScrollAnimation animateIn="fadeIn">
         <div class="container">
-            <Picture class="f" img={LIB} href="#" />
-            <Picture class="b" img={renImg} href="https://www.ren.inc/platform" />
+            <Picture position="start" class="f" img={LIB} href="#" />
+            <Picture position="start" class="b" img={renImg} href="https://www.ren.inc/platform" />
             <Picture
             class="a"
               img={gymSignup}
               href="https://github.com/MerelJac/GymGenius"
             />
-            <Picture class="d" img={BIG} href="https://www.buildingintegritygroup.com/" />
+            <Picture position="start" class="e" img={BIG} href="https://www.buildingintegritygroup.com/" />
             <Picture
             class="j"
               img={exerciseAPI}
@@ -36,9 +36,9 @@ export default function PicPage() {
               img={somethingborrowed}
               href="https://github.com/MerelJac/Something-Borrowed"
             />
-            <Picture class="g" img={celina} href="https://www.celina-ann-wellness.com/" />
+            <Picture position="center" class="g" img={celina} href="https://www.celina-ann-wellness.com/" />
           
-            <Picture class="e" img={trainingSite} href="https://www.trainingbyana.com/" />
+            <Picture position="center" class="d" img={trainingSite} href="https://www.trainingbyana.com/" />
             <Picture class="i" img={renImg} href="https://www.ren.inc/platform" />
 
             <Picture

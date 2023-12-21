@@ -25,24 +25,12 @@ export default function Picture(props) {
   const divStyle = {
     backgroundImage: `url('${props.img}')`,
     backgroundSize: 'cover',
-    backgroundPosition: 'start',
+    backgroundPosition: `${props.position}`,
     backgroundRepeat: 'no-repeat',
     borderRadius: '10px',
     minHeight: '18vh',
     minWidth: '28vw'
   };
-
-  // // Media queries for different screen sizes
-  // const mediaQueryStyle = {
-  //   '@media (max-width: 768px)': {
-  //     minHeight: '150px', // Adjust the value for smaller screens
-  //     minWidth: '200px',
-  //   },
-  //   '@media (max-width: 480px)': {
-  //     minHeight: '75px', // Adjust the value for even smaller screens
-  //     minWidth: '10px',
-  //   },
-  // };
 
   return (
     <div style={divStyle} className={props.class}>
