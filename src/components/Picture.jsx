@@ -15,7 +15,7 @@ export default function Picture(props) {
   return (
     <div style={divStyle} className={props.class}>
       <a href={props.href} target="_blank" rel="noreferrer">
-        <img className='w-2 opacity-0' src={props.img} alt='portfolio-img'/>
+        <img className='w-[28vh] opacity-0' src={props.img} alt='portfolio-img'/>
       </a>
     </div>
   );
