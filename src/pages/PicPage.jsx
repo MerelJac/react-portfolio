@@ -14,7 +14,7 @@ import "../assets/css/masonry-grid.css";
 
 export default function PicPage() {
   return (
-    <section className="sm:ml-[5%] text-creme bg-dark-green flex">
+    <section className="ml-[3%] md:ml-[5%] lg:ml-[8%] text-creme bg-dark-green flex">
       <ScrollAnimation animateIn="fadeIn">
         <div class="container">
           <Picture position="start" class="f" img={LIB} href="#" />
