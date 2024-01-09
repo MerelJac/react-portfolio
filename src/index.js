@@ -4,7 +4,6 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { Landing } from "./pages/LandingPage";
 import { LastPage } from "./pages/LastPage";
-import { ProcessPage } from "./pages/ProcessPage";
 import { SkillsPage } from "./pages/SkillsPage";
 import { AboutPage } from "./pages/AboutMePage";
 import "tailwindcss-animatecss";
@@ -13,8 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Landing />
-    <PicPage />
     <SkillsPage />
+    <PicPage />
     <AboutPage />
     <LastPage />
   </React.StrictMode>
