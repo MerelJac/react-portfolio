@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.92af0e8d.css",
-    "main.js": "/static/js/main.f48a61b5.js",
+    "main.js": "/static/js/main.24a08442.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/un.png": "/static/media/un.cc8bf72a71697960bbaf.png",
     "static/media/BIG2.png": "/static/media/BIG2.cc94dbcb613f0ad42dbd.png",
     "static/media/LIB.png": "/static/media/LIB.047bae28ce480f2f3584.png",
     "static/media/something-borrowed.png": "/static/media/something-borrowed.77d5ff862d58aef640a4.png",
@@ -11,14 +12,13 @@
     "static/media/vio.png": "/static/media/vio.0987f6a054d7c8781503.png",
     "static/media/trainingsite.png": "/static/media/trainingsite.d4c6e3b9b45d05fd86ff.png",
     "static/media/gympic2.png": "/static/media/gympic2.4f3ecfbcee5dbeb12442.png",
-    "static/media/celina.png": "/static/media/celina.3081b9b8c573c7542600.png",
+    "static/media/intel.png": "/static/media/intel.26b840d0574aa63d5236.png",
     "static/media/renimg.png": "/static/media/renimg.fe8d51aa9e99ccb12d2d.png",
-    "static/media/gym-signup.png": "/static/media/gym-signup.eb0bbbedc09dcf98412f.png",
     "static/media/ren.png": "/static/media/ren.75f32f864c141a801630.png",
     "static/media/coverPhoto.jpg": "/static/media/coverPhoto.e4afedff436110a2341d.jpg",
     "static/media/saas.png": "/static/media/saas.99c29fcbb48a15582256.png",
     "static/media/consult.png": "/static/media/consult.cf8c3a4869fce429d659.png",
-    "static/media/EngineeringRes.pdf": "/static/media/EngineeringRes.2ca543eb3c53ce8a7b09.pdf",
+    "static/media/EngineeringRes.pdf": "/static/media/EngineeringRes.b7684e924ef915bb4cfc.pdf",
     "static/media/fullstack.png": "/static/media/fullstack.a553228ad305676ba6eb.png",
     "static/media/website.png": "/static/media/website.1eb59bea5544a1fd6b7d.png",
     "static/media/email.png": "/static/media/email.4be883843047678ed77a.png",
@@ -26,11 +26,11 @@
     "static/media/linkedin.png": "/static/media/linkedin.51fc63a68244f5ce4b37.png",
     "index.html": "/index.html",
     "main.92af0e8d.css.map": "/static/css/main.92af0e8d.css.map",
-    "main.f48a61b5.js.map": "/static/js/main.f48a61b5.js.map",
+    "main.24a08442.js.map": "/static/js/main.24a08442.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92af0e8d.css",
-    "static/js/main.f48a61b5.js"
+    "static/js/main.24a08442.js"
   ]
 }
