@@ -8,8 +8,8 @@ import LIB from "../assets/images/LIB.png";
 import renImg from "../assets/images/renimg.png";
 import ren from "../assets/images/ren.png";
 import gympic2 from "../assets/images/gympic2.png";
-import gymSignup from "../assets/images/gym-signup.png";
-import celina from "../assets/images/celina.png";
+import intel from "../assets/images/intel.png";
+import un from "../assets/images/un.png";
 import "../assets/css/masonry-grid.css";
 
 export default function PicPage() {
@@ -26,8 +26,8 @@ export default function PicPage() {
           />
           <Picture
             class="a"
-            img={gymSignup}
-            href="https://github.com/MerelJac/GymGenius"
+            img={intel}
+            href="https://github.com/MerelJac/"
           />
           <Picture
             class="c"
@@ -37,8 +37,8 @@ export default function PicPage() {
           <Picture
             position="center"
             class="g"
-            img={celina}
-            href="https://www.celina-ann-wellness.com/"
+            img={un}
+            href="https://unworldoceansday.org/"
           />
 
           <Picture
