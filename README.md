@@ -50,8 +50,10 @@ You can customize the portfolio to reflect your own work and personality:
 To deploy your portfolio website, you can use various hosting platforms like Netlify, Vercel, or GitHub Pages. Simply create a production build and follow the deployment instructions for your chosen platform.
 
 ```bash
-npm run build
+npm run predeploy
+npm run deploy
 ```
+Then update custom domain name in GH settings. 
 
 ## License
 

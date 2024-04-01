@@ -1,7 +1,7 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Picture from "../components/Picture";
-import somethingborrowed from "../assets/images/something-borrowed.png";
+import intelCharts from "../assets/images/intel2.png";
 import trainingSite from "../assets/images/trainingsite.png";
 import BIG2 from "../assets/images/BIG2.png";
 import LIB from "../assets/images/LIB.png";
@@ -31,8 +31,8 @@ export default function PicPage() {
           />
           <Picture
             class="c"
-            img={somethingborrowed}
-            href="https://github.com/MerelJac/Something-Borrowed"
+            img={intelCharts}
+            href="https://github.com/MerelJac/"
           />
           <Picture
             position="center"
