@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.92af0e8d.css",
-    "main.js": "/static/js/main.458258b5.js",
+    "main.js": "/static/js/main.e33f800c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/un.png": "/static/media/un.cc8bf72a71697960bbaf.png",
     "static/media/BIG2.png": "/static/media/BIG2.cc94dbcb613f0ad42dbd.png",
@@ -18,7 +18,7 @@
     "static/media/coverPhoto.jpg": "/static/media/coverPhoto.e4afedff436110a2341d.jpg",
     "static/media/saas.png": "/static/media/saas.99c29fcbb48a15582256.png",
     "static/media/consult.png": "/static/media/consult.cf8c3a4869fce429d659.png",
-    "static/media/EngineeringRes.pdf": "/static/media/EngineeringRes.0398d007b68d8f984921.pdf",
+    "static/media/EngineeringRes.pdf": "/static/media/EngineeringRes.0a3f2807def124f81f0f.pdf",
     "static/media/fullstack.png": "/static/media/fullstack.a553228ad305676ba6eb.png",
     "static/media/website.png": "/static/media/website.1eb59bea5544a1fd6b7d.png",
     "static/media/email.png": "/static/media/email.4be883843047678ed77a.png",
@@ -26,11 +26,11 @@
     "static/media/linkedin.png": "/static/media/linkedin.51fc63a68244f5ce4b37.png",
     "index.html": "/index.html",
     "main.92af0e8d.css.map": "/static/css/main.92af0e8d.css.map",
-    "main.458258b5.js.map": "/static/js/main.458258b5.js.map",
+    "main.e33f800c.js.map": "/static/js/main.e33f800c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92af0e8d.css",
-    "static/js/main.458258b5.js"
+    "static/js/main.e33f800c.js"
   ]
 }
