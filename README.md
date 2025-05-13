@@ -9,6 +9,13 @@ This is a simple and stylish portfolio website built using React and Tailwind CS
 - **Dependency Management:** All the project dependencies are listed in the `package.json` file for easy installation.
 - **Optimized Build:** The project is set up with production-ready build scripts to ensure optimal performance.
 
+# To push changes 
+npm install --legacy-peer-deps
+npm run redeploy
+npm run deploy
+
+then add dns record to github pages section
+
 ## Getting Started
 
 1. Clone this repository to your local machine.
