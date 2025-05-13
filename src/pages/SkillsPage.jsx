@@ -7,7 +7,7 @@ import website from "../assets/images/website.png";
 import fullstack from "../assets/images/fullstack.png";
 
 import { DownloadButton } from "../components/DownloadButton";
-import Resume from "../assets/EngineeringRes.pdf";
+import Resume from "../assets/MerelResume.pdf";
 
 export const SkillsPage = () => {
   return (
